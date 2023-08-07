@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.06 s <<< FAILURE! - in TestSuite
+ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.setup  Time elapsed: 0.776 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: LINUX
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'ebadbcbdbafbdecbccfaabacdfdabdafecefecf-0', ip: '10.56.98.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.18'
+Driver info: driver.version: FirefoxDriver
+	at ai.iamneo.testing.Testing_Selenium_TestNg.AppTest.setup(AppTest.java:12)
+
